@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+	<link rel="stylesheet" href="css/style.css">
+	<script>
+		function pgScale(){
+		    var deviceWidth = document.documentElement.clientWidth;
+		    if(deviceWidth > 720) deviceWidth = 720;
+		    document.documentElement.style.fontSize = deviceWidth / 7.2 + 'px';
+		}
+		pgScale();
+		window.onresize=pgScale;
+	</script>
+</head>
+<body>
+<div class="zg-wrap">
+	<!-- 头部 -->
+	<div class="zg_header">
+		<div class="zg_head">
+	        <h2 class="logo fl">
+	        	<a href="http://wap.kaoyan365.cn/">
+	        		<img src="images/logo.jpg" alt="">
+	        	</a>
+	        </h2>
+	        <div class="phone fr">
+	        	<a href="tel:400-6300-966">400-6300-966</a>
+	        </div>
+	    </div>
+	</div>
+</div>
+
+
+</body>
+</html>
