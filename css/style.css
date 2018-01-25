@@ -349,9 +349,70 @@ table{border-collapse:collapse;border-spacing:0;}
     overflow: hidden;
     z-index:999;
 }
-.foot a{
+.foot span{
     display: block;
     width: 100%;
     height:100%;
     text-indent: -9999rem;
+}
+.zg-mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+.zg-appointment{
+    position: fixed;
+    top: 50%;
+    margin-top: -1.2rem;
+    width: 7.2rem;
+    height: 2.41rem;
+    background: url(../images/yy.jpg) no-repeat center;
+    background-size: 7.2rem;
+    z-index: 9999;
+    display: none;
+}
+.zg-appointment input{
+    border: none;
+    background: none;
+    outline: none;
+}
+.zg-appointment div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.zg-appointment div em{
+    width: 0.42rem;
+    height: 0.42rem;
+    position: absolute;
+    top:0.13rem;
+    right: 0.16rem;
+}
+.zg-appointment div input:nth-child(2){
+    width: 2rem;
+    height: 0.53rem;
+    position: absolute;
+    left: 1.7rem;
+    top: 0.83rem;
+    font-size: 0.24rem
+}
+.zg-appointment div input:nth-child(3){
+    width: 2rem;
+    height: 0.53rem;
+    position: absolute;
+    left: 1.7rem;
+    top: 1.63rem;
+    font-size: 0.24rem
+}
+.zg-appointment div input[type='submit']{
+    width: 2.34rem;
+    height: 0.65rem;
+    position: absolute;
+    right: 0.62rem;
+    top: 1.02rem;
+    text-indent: -9999rem
 }
