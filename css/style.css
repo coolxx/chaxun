@@ -356,7 +356,7 @@ table{border-collapse:collapse;border-spacing:0;}
     text-indent: -9999rem;
 }
 .zg-mask{
-    width: 100%;
+    width:7.2rem;
     height: 100%;
     position: fixed;
     top: 0;
